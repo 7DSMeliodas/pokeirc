@@ -1,11 +1,7 @@
-#summary Below is the Entity-Attribute Relationship Diagram
+#summary Entity-Attribute Relationship Diagram
 = Diagram =
 
 http://pokeirc.googlecode.com/svn/wiki/diagrams/E-A-R.jpg
 
 = Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Subject to change as objectives mutate.
