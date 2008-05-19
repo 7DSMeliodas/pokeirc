@@ -1,0 +1,8 @@
+#summary A list of features for PokéIRC.
+
+= Introduction =
+Here is a list of items to implement in PokéIRC.  They are not yet logically sorted or grouped, nor guaranteed to be implemented.  Once a good list is compiled, they will be arranged in a sane fashion and also be put into time-based phases to indicate when they will be implemented.
+
+= Proposed Features =
+
+* Mudkipz
