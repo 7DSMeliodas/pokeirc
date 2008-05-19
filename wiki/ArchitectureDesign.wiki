@@ -7,4 +7,5 @@ This document will list all files to be used.  This is just a design - it is not
 
 == lib/SQL.pm ==
   * Stores SQL statements.
+    * Each subroutine will contain *only a heredoc*, containing the SQL query.
     * The SQL will be extraneously used by DBI, so use *?* for placeholders.
