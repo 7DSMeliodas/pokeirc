@@ -1,10 +1,10 @@
 #summary Summary/list of files & classes.
 = Introduction =
 
-This document will list all files to be used.  This is just a design - it is not necessarily complete and not all items will be yet implemented.
+This document will list all files to be used.  This is just a design - it is not necessarily complete and not all items will yet be implemented.
 
 = List =
 
 == lib/SQL.pm ==
   * Stores SQL statements.
-    * The SQL will be extraneously used by DBI, so use _?_ for placeholders.
+    * The SQL will be extraneously used by DBI, so use *?* for placeholders.
