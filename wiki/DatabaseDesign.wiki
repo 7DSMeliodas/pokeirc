@@ -1,7 +1,7 @@
 #summary Below is the Entity-Attribute Relationship Diagram
 = Diagram =
 
-http://pokeirc.googlecode.com/svn/wiki/E-A-R_Diagram.jpg
+http://pokeirc.googlecode.com/svn/wiki/diagrams/E-A-R.jpg
 
 = Details =
 
