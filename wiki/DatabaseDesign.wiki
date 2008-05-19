@@ -3,5 +3,11 @@
 
 http://pokeirc.googlecode.com/svn/wiki/diagrams/E-A-R.jpg
 
-= Details =
+= Summary = 
+
+Each user may have multiple Pokéballs and items.  Each Pokéball contains one Pokémon.  Each Pokémon will evolve into the next Pokémon (evolve_into, if not null) once max_points is reached by its Pokéball's points.  Each Pokémon has a variety of moves, some moves will be shared between multiple Pokémon.
+
+
+= TAKE NOTE =
+
 Subject to change as objectives mutate.
