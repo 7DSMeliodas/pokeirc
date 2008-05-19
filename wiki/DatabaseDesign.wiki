@@ -1,7 +1,7 @@
 #summary Below is the Entity-Attribute Relationship Diagram
 = Diagram =
 
-[E-A-R Diagram.jpg Diagram]
+[E-A-R_Diagram.jpg Diagram]
 
 = Details =
 
