@@ -1,0 +1,5 @@
+#summary A PokéIRC dataflow diagram.
+
+= Introduction =
+
+This wiki page will hold a dataflow diagram, a conceptual model of how user-system interaction.  This will assist technical design in future.
