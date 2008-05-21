@@ -3,4 +3,4 @@ use strict;
 use warnings;
 use Database;
 
-my $db = Database->new();
+my $STH = $database->prepare('SELECT * FROM LOL');
