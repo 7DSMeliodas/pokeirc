@@ -5,25 +5,26 @@ use warnings;
 use Carp;
 use DBI;
 
-use base qw( Class::Accessor );
-
-Database->mk_ro_accessors(qw( DBH ));
-
-my $database = 'database';
-
-sub new { 
-    my $class = shift;
-    my $self = { DBH => DBI->connect("dbi:SQLite:$database", undef, undef,
-                                     { RaiseError => 1 })
-               };
-
-    bless $self, $class;
-
-    print $self->databaseExists ? 'Database!' : 'No Database :/'
+BEGIN {
+    require Exporter;
+    our   @ISA = qw(Exporter);
+    our   @EXPORT = qw($database); 
 }
 
+my $dbPath = 'pokeirc_db';
+our $database;
+
+if ( not databaseExists() ) {
+    croak "Error: Database inaccessible! (File: $dbPath)";
+}
+
+$database = DBI->connect (
+                "dbi:SQLite:$dbPath", undef, undef,
+                { RaiseError => 1 }
+            );
+
 sub databaseExists {
-    return -w $database;
+    return -w $dbPath;
 }
 
 1;
