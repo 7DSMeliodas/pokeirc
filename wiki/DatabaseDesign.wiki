@@ -11,3 +11,7 @@ Each user may have multiple Pokéballs and items.  Each Pokéball contains one P
 = TAKE NOTE =
 
 Subject to change as objectives mutate.
+
+= TODO = 
+
+Add authenticated table.  Attributes: _*user_id*_, nick
